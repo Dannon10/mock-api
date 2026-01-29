@@ -1,10 +1,10 @@
 {
   "name": "mock-api",
   "version": "1.0.0",
- "scripts": {
-  "start": "node_modules/.bin/json-server --watch db.json --port $PORT --host 0.0.0.0"
-},
+  "scripts": {
+    "start": "npx --no-install json-server --watch db.json --port $PORT --host 0.0.0.0"
+  },
   "dependencies": {
-    "json-server": "^0.17.4"
+    "json-server": "^0.17.3"
   }
 }
